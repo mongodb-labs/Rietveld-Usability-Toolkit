@@ -154,6 +154,7 @@
     "lib/syntax/brush/shBrushErlang.js",
     "lib/syntax/brush/shBrushPerl.js",
     "lib/syntax/brush/shBrushRuby.js",
-    "lib/syntax/brush/shBrushXml.js"
+    "lib/syntax/brush/shBrushXml.js",
+    "lib/syntax/brush/shBrushGo.js"      
   ]
 }

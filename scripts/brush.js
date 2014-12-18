@@ -59,6 +59,11 @@ var brushes = [
     extensions: [],
   },
   {
+    name: "Go",
+    path: "lib/syntax/brush/shBrushGo.js",
+    extensions: ["go"],
+  },
+  {
     name: "Groovy",
     path: "lib/syntax/brush/shBrushGroovy.js",
     extensions: [],
