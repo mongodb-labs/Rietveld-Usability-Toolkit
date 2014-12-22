@@ -1,4 +1,12 @@
-Rietveld Usability Toolkit
+## Modifications in this Fork
+
+This fork has been modified to work with the MongoDB Rietvield instance. Additionally, support for golang syntax highlighting has been added.
+
+The original README is below.
+
+-------------------
+
+# Rietveld Usability Toolkit
 
 A set of tools that makes Rietveld more usable. Press '?' on a Rietveld page to quickly change settings. All tools are optional, and easily disabled.
 
@@ -6,7 +14,7 @@ Use '?' on a Rietveld page to quickly change options.
 
 View the source at https://github.com/cjhopman/Rietveld-Usability-Toolkit.
 
-Tools:
+## Tools:
 
 Syntax Highlighting - Language specific syntax highlighting with multiple color schemes.
 
@@ -19,4 +27,3 @@ Rewrite Unified Diff Links - Nobody ever wants to see the unified diff, so rewri
 Better code fonts - Change the font to Inconsolata and adjust the font size to your liking.
 
 Smarter Selection/Copy - Have you ever tried to copy code from a side-by-side diff? It's awful, you get both columns and all the line numbers. This tool fixes selection to only select the code in one column (and no line numbers).
-
