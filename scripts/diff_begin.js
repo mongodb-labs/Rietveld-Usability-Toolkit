@@ -178,4 +178,36 @@ fixDarkLines();
 
   // When the DOM is ready.
   $(displayProgress);
+
+  // Add "Expand all" link.
+  function expandAll() {
+    $('#thecode tr').each(function(i, tr) {
+      if (tr.id.startsWith('skip-')) {
+        $('a', tr).each(function(j, a) {
+          // Note, capital 'E' and lowercase 'a'.
+          if (a.innerHTML === 'Expand all') {
+            a.click();
+          }
+        });
+      }
+    });
+  }
+
+  $(function() {
+    $("div.codenav").append(
+      '| <a name="expand-all" id="expand-all" href="#">Expand All Matching Lines</a> (\'a\')');
+
+    $('#expand-all').click(expandAll);
+
+    $('html').keydown(function(ev) {
+      if (ev.target.nodeName === "TEXTAREA" || ev.target.nodeName === "INPUT")
+        return;
+
+      if (String.fromCharCode(ev.keyCode).toLowerCase() === 'a') {
+        ev.stopPropagation();
+        ev.preventDefault();
+        expandAll();
+      }
+    });
+  });
 })();

@@ -18,6 +18,8 @@ View the source at https://github.com/cjhopman/Rietveld-Usability-Toolkit.
 
 Syntax Highlighting - Language specific syntax highlighting with multiple color schemes.
 
+Expand All - Expand all matching lines in a side-by-side diff with one click or keystroke.
+
 Inline Diffs - Open diffs inline, right on the issue page. Also adds useful buttons to open/close all diffs. Even better, inline diffs can have the column width set automatically based on file type.
 
 Add Replace-specific Color - In side-by-side diff, color changed lines a different color to better distinguish between changes and deletes/insertions.
