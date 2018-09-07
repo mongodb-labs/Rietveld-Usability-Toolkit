@@ -12,7 +12,7 @@
     "*://chromereviews.googleplex.com/*",
     "*://codereview.chromium.org/*",
     "*://webrtc-codereview.appspot.com/*",
-    "*://codereview.10gen.com/*"
+    "*://mongodbcr.appspot.com/*"
   ],
   "background" : {
     "scripts": [ "scripts/background.js" ],
@@ -36,7 +36,7 @@
         "*://chromereviews.googleplex.com/*",
         "*://codereview.chromium.org/*",
         "*://webrtc-codereview.appspot.com/*",
-        "*://codereview.10gen.com/*"
+        "*://mongodbcr.appspot.com/*"
       ],
       "all_frames": true,
       "js": [
@@ -56,7 +56,7 @@
         "*://codereview.chromium.org/*",
         "*://chromereviews.googleplex.com/*",
         "*://webrtc-codereview.appspot.com/*",
-        "*://codereview.10gen.com/*"
+        "*://mongodbcr.appspot.com/*"
       ],
       "all_frames": true,
       "js": [
@@ -79,7 +79,7 @@
         "*://codereview.chromium.org/*/diff*",
         "*://chromereviews.googleplex.com/*/diff*",
         "*://webrtc-codereview.appspot.com/*/diff",
-        "*://codereview.10gen.com/*/diff*"
+        "*://mongodbcr.appspot.com/*/diff*"
       ],
       "js": [
         "scripts/diff_begin.js"
@@ -98,7 +98,7 @@
         "*://codereview.chromium.org/*/diff*",
         "*://chromereviews.googleplex.com/*/diff*",
         "*://webrtc-codereview.appspot.com/*/diff",
-        "*://codereview.10gen.com/*/diff*"
+        "*://mongodbcr.appspot.com/*/diff*"
       ],
       "all_frames": true,
       "js": [
