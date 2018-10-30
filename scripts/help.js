@@ -3,6 +3,9 @@ settings = $('<div id="rb-settings" style="display:table; margin:auto"/>')
 header = $('<hr/><div style="font-size: large; text-align: center"> Rietveld Usability Toolkit <span style="font-size: small; vertical-align: middle">- by cjhopman</span></div><hr/>')
 help.append(header);
 help.append(settings);
+$('table.shortcuts td:first tr:last').after(
+  '<tr>\n<td><span>a</span> <b>:</b></td><td>expand all matching lines</td></tr>'
+);
 insertControls(settings);
 settings.find('.rb-setting').click(function(ev) { ev.stopPropagation(); });
 
